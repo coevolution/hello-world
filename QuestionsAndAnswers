@@ -1,0 +1,10 @@
+1.#Question
+  fatal: Not a git repository (or any of the parent directories): .git in Mac OS
+  #Answer
+  Just to be sure: if you create a file, you should not create in the .git/ folder itself, but in its parent folder:
+    myrepo
+      yourfile <===
+      .git
+  The .git/ folder include git data/metadata representing your git repo.
+  The parent folder is the working tree of the repo.
+  If you don't have a .git/ folder in "myrepo", type git init .
