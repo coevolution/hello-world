@@ -8,3 +8,8 @@
   The .git/ folder include git data/metadata representing your git repo.
   The parent folder is the working tree of the repo.
   If you don't have a .git/ folder in "myrepo", type git init .
+2.#Question
+  error: RPC failed when Git suddenly refused to push a repository
+  #Answer
+  Here is what helped, the following command increases git buffer to 500mb:
+    git config http.postBuffer 524288000
