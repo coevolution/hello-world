@@ -1,0 +1,218 @@
+<h2>
+						翡翠城 
+						1幢
+						0单元
+						1-1室
+					</h2>
+					<table width="95%" border="0" align="center" cellpadding="0" cellspacing="1" class="fjbg">
+						<tr>
+							<td width="10%" height="23" align="center">
+								<strong>房 号</strong>
+							</td>
+							<td width="40%">
+								1幢
+								0单元
+								1-1室
+							</td>
+							<td width="10%" align="center">
+								<strong>开 发 商</strong>
+							</td>
+							<td width="40%">
+								杭州翡翠城房地产开发有限公司
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>当前状态</strong>
+							</td>
+							<td>
+								限制房产
+							</td>
+							<td align="center">
+								<strong>楼盘名称</strong>
+							</td>
+							<td>
+								翡翠城
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>户 型</strong>
+							</td>
+							<td>
+								暂无资料
+							</td>
+							<td width="10%" align="center">
+								<strong>建筑面积</strong>
+							</td>
+							<td width="40%">
+								<span class="numberthree"></span><span class="numbersix"></span><span class="numberdor"></span><span class="numberone"></span><span class="numberfive"></span>㎡
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>所在层数</strong>
+							</td>
+							<td>
+								
+									第1层
+								
+								
+								（共18层）
+							</td>
+							<td align="center">
+								<strong>套内面积</strong>
+							</td>
+							<td>
+								<span class="numberthree"></span><span class="numberone"></span><span class="numberdor"></span><span class="numberzero"></span><span class="numbereight"></span>㎡
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>房屋坐落</strong>
+							</td>
+							<td>
+								杭州市余杭区闲林街道翡翠城甘棠苑1幢1-1室
+							</td>
+							<td align="center">
+								<strong>分摊面积</strong>
+							</td>
+							<td>
+								<span class="numberfive"></span><span class="numberdor"></span><span class="numberzero"></span><span class="numberseven"></span>㎡
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>房屋用途</strong>
+							</td>
+							<td>
+								物管用房（经营）
+							</td>
+							<td align="center">
+								<strong>预售证号</strong>
+							</td>
+							<td>
+								余售许字(2016)第00199号
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>房屋结构</strong>
+							</td>
+							<td>
+								暂无资料
+							</td>
+							<td height="25" align="center">
+								<strong>毛坯单价</strong>
+							</td>
+							<td>
+								<span class="numberzero"></span>元/平方米
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>物 业 费</strong>
+							</td>
+							<td>
+								暂无资料
+							</td>
+							<td height="25" align="center">
+								<strong>申报时间</strong>
+							</td>
+							<td>
+								2016-11-23 
+							</td>
+						</tr>
+						<tr>
+							<td height="23" align="center">
+								<strong>朝 向</strong>
+							</td>
+							<td>
+								暂无资料
+							</td>
+							<td align="center">
+								<strong>总 价</strong>
+							</td>
+							<td>
+								<span class="numberzero"></span>元
+							</td>
+						</tr>
+					</table>
+房 号
+开 发 商
+当前状态
+楼盘名称
+户 型
+建筑面积
+所在层数
+套内面积
+房屋坐落
+分摊面积
+房屋用途
+预售证号
+房屋结构
+毛坯单价
+物 业 费
+申报时间
+朝 向
+总 价
+
+								1幢
+								0单元
+								1-1室
+							
+
+								杭州翡翠城房地产开发有限公司
+							
+
+								限制房产
+							
+
+								翡翠城
+							
+
+								暂无资料
+							
+
+								<span class="numberthree"></span><span class="numbersix"></span><span class="numberdor"></span><span class="numberone"></span><span class="numberfive"></span>㎡
+							
+
+								
+									第1层
+								
+								
+								（共18层）
+							
+
+								<span class="numberthree"></span><span class="numberone"></span><span class="numberdor"></span><span class="numberzero"></span><span class="numbereight"></span>㎡
+							
+
+								杭州市余杭区闲林街道翡翠城甘棠苑1幢1-1室
+							
+
+								<span class="numberfive"></span><span class="numberdor"></span><span class="numberzero"></span><span class="numberseven"></span>㎡
+							
+
+								物管用房（经营）
+							
+
+								余售许字(2016)第00199号
+							
+
+								暂无资料
+							
+
+								<span class="numberzero"></span>元/平方米
+							
+
+								暂无资料
+							
+
+								2016-11-23 
+							
+
+								暂无资料
+							
+
+								<span class="numberzero"></span>元
+							

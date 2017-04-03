@@ -4,6 +4,7 @@ import urllib.error
 import random
 import re
 
+#
 page = 2
 url = 'http://www.tmsf.com/newhouse/property_330184_30395281_price.htm?isopen=&presellid=10057922&buildingid=&area=&allprice=&housestate=&housetype=&page=' + str(page)
 #url = 'https://www.baidu.com/s?wd=python3%20%E6%B3%A8%E9%87%8A&rsv_spt=1&rsv_iqid=0xe26ee9d200000999&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&rqlang=cn&tn=baiduhome_pg&rsv_enter=1&oq=python%2526lt%253B%2520except&rsv_t=aa48LjLVrdM1P0053JYzqRSd4pewHnGhVXj%2BVd8fcvQEt0nQoKrT4GK6dvAGkFAzlW0s&inputT=1748&rsv_pq=8d5609f3000075bd&rsv_sug3=57&rsv_sug1=43&rsv_sug7=100&rsv_sug2=0&rsv_sug4=2174'
@@ -31,11 +32,10 @@ class SDU:
         #一房一价链接1
         url1 = 'http://www.tmsf.com//newhouse/property_house_330184_30395281_10057929.htm'
         page = get_content(url1,my_headers)
-        #print (page)
-        strTemp = re.findall('<div.*?>.*?<h2.*?>.*?</div>',page,re.S)
-        print (strTemp)
-        myItems = re.findall('<tr>.*?<strong.*?>(.*?)</strong>.*?<td.*?>(.*?)</td>.*?<strong.*?>(.*?)</strong>.*?<td.*?>(.*?)</td>.*?</tr>',strTemp.[0],re.S)
-        print (myItems)
+        strTemp = re.search("<h2.*?>.*?</h2>.*?<table.*?>(.*?)</table>",page,re.S)
+        print (strTemp.group(0))
+        myItems = re.findall('<tr>.*?<strong.*?>(.*?)</strong>.*?<td.*?>(.*?)</td>.*?<strong.*?>(.*?)</strong>.*?<td.*?>(.*?)</td>.*?</tr>',strTemp.group(0),re.S)
+        #print (myItems)
         #房号list
         self.room = []
         self.roomNumber = []
