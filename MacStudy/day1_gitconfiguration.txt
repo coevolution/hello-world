@@ -1,0 +1,12 @@
+1.Mac上默认安装有Git
+2.配置Git
+  a.set the default name for git to use when you commit
+    git config --global user.name "Luxp"
+  b.set the default email for git to use when you commit
+    git config --global user.email "*@*.com"
+  c.Password catching
+    git credential-osxkeychain
+    #test for the cred helper
+    git config --global credential.helper osxkeychain
+    #set git to use the osxkeychain credential helper
+    #only useful for cloning HTTPS URL
