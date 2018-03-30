@@ -1,0 +1,282 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/IdeaProjects/spring3/src/soundsystem/SgtPeppers.java" timestamp="1504933393916">
+        <mark key="[" line="9" column="23" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/string/StringInternOOM.java" timestamp="1521067428343">
+        <mark key="[" line="8" column="28" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring3/src/soundsystem/CDPlayerConfig.java" timestamp="1504933536480">
+        <mark key="[" line="10" column="27" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/WeakRef/WeakRef.java" timestamp="1520658564859">
+        <mark key="[" line="7" column="20" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/data/SpitterRepository.java" timestamp="1517134635408">
+        <mark key="[" line="7" column="36" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring2/src/concert/ComedyPlay.java" timestamp="1505140251159">
+        <mark key="[" line="5" column="24" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/looplocal/TestLoopLocal.java" timestamp="1521069901687">
+        <mark key="[" line="19" column="3" />
+        <mark key="]" line="19" column="27" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/SoftRef/SoftRef.java" timestamp="1520655437458">
+        <mark key="[" line="21" column="43" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring1/src/soundsystem/TrackCounterConfig.java" timestamp="1504789497927">
+        <mark key="[" line="9" column="31" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/SoftRef/SoftRefQ2.java" timestamp="1520658316275">
+        <mark key="[" line="36" column="40" />
+        <mark key="]" line="36" column="40" />
+        <mark key="." line="36" column="40" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180321/src/com/company/biasedlocking/LockEliminate.java" timestamp="1521725522118">
+        <mark key="[" line="10" column="31" />
+        <mark key="]" line="10" column="31" />
+        <mark key="." line="10" column="31" />
+      </file>
+      <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java" timestamp="1522238370510" />
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/web/WEB-INF/views/home.jsp" timestamp="1515940603993">
+        <mark key="[" line="11" column="5" />
+        <mark key="]" line="7" column="59" />
+        <mark key="^" line="7" column="59" />
+        <mark key="." line="7" column="59" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/HomeController.java" timestamp="1518748896679">
+        <mark key="[" line="11" column="19" />
+        <mark key="]" line="11" column="19" />
+        <mark key="^" line="11" column="19" />
+        <mark key="." line="11" column="19" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/Spitter.java" timestamp="1518014768156">
+        <mark key="[" line="2" column="43" />
+        <mark key="]" line="15" column="8" />
+        <mark key="^" line="15" column="8" />
+        <mark key="." line="15" column="8" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/data/SpittleRepository.java" timestamp="1517127184365">
+        <mark key="[" line="10" column="51" />
+        <mark key="]" line="9" column="6" />
+        <mark key="^" line="9" column="6" />
+        <mark key="." line="9" column="6" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring2/src/soundsystem/TrackCounterTest.java" timestamp="1505431342742">
+        <mark key="[" line="50" column="47" />
+        <mark key="]" line="51" column="31" />
+        <mark key="." line="56" column="30" />
+        <mark key="^" line="56" column="30" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/SpitterControllerTest.java" timestamp="1517134251432">
+        <mark key="[" line="17" column="34" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/string/ConstantPool.java" timestamp="1521067975146">
+        <mark key="[" line="13" column="51" />
+        <mark key="]" line="13" column="51" />
+        <mark key="." line="13" column="51" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" timestamp="1504921245748">
+        <mark key="[" line="20" column="10" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/oom/PerOOM.java" timestamp="1521029682411">
+        <mark key="[" line="5" column="16" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/STW/StopWorldTest.java" timestamp="1520661723742">
+        <mark key="[" line="7" column="26" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1521069698763">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/HomeControllerTest.java" timestamp="1516889530339">
+        <mark key="[" line="19" column="8" />
+        <mark key="]" line="19" column="8" />
+        <mark key="^" line="19" column="8" />
+        <mark key="." line="19" column="8" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring2/src/concert/Performance.java" timestamp="1505139440534">
+        <mark key="[" line="5" column="24" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring2/src/concert/Audience.java" timestamp="1505140837354">
+        <mark key="[" line="11" column="21" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/config/SpittrWebAppInitializer.java" timestamp="1518838672680">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="9" column="32" />
+        <mark key="^" line="9" column="32" />
+        <mark key="." line="9" column="32" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180328/src/MultiThreadVolatileLong.java" timestamp="1522241130084">
+        <mark key="[" line="27" column="15" />
+        <mark key="]" line="26" column="22" />
+        <mark key="^" line="26" column="22" />
+        <mark key="." line="26" column="22" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/testSerialization/src/ForTestSerialization/TestComparable.java" timestamp="1511783843161">
+        <mark key="[" line="6" column="47" />
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/SpittleControllerTest.java" timestamp="1517132187832">
+        <mark key="[" line="19" column="37" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/config/RootConfig.java" timestamp="1518838665624">
+        <mark key="[" line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/oom/PermOOM.java" timestamp="1521033220334">
+        <mark key="'" line="17" column="46" />
+        <mark key="[" line="30" column="23" />
+        <mark key="]" line="30" column="23" />
+        <mark key="." line="30" column="23" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring2/src/concert/ConcertConfig.java" timestamp="1505140630365">
+        <mark key="[" line="11" column="26" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/SpitterController.java" timestamp="1517133011344">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="24" />
+        <mark key="^" line="23" column="0" />
+        <mark key="." line="37" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180321/src/com/company/biasedlocking/Biased.java" timestamp="1521636140982">
+        <mark key="[" line="8" column="19" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/config/WebConfig.java" timestamp="1518748870400">
+        <mark key="[" line="13" column="2" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180328/src/Main.java" timestamp="1522237931560">
+        <mark key="'" line="0" column="13" />
+        <mark key="[" line="0" column="12" />
+        <mark key="]" line="0" column="12" />
+        <mark key="." line="0" column="12" />
+        <mark key="^" line="0" column="12" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/SpttleControllerTest.java" timestamp="1517113216615">
+        <mark key="[" line="29" column="35" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/web/WEB-INF/web.xml" timestamp="1518781107779">
+        <mark key="[" line="20" column="21" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180321/src/temp" timestamp="1521725368691">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/string/TestString.java" timestamp="1521066531172">
+        <mark key="[" line="5" column="23" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/web/WEB-INF/views/registerForm.jsp" timestamp="1517129061750">
+        <mark key="[" line="10" column="6" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring3/src/soundsystem/CompactDisc.java" timestamp="1504933362093">
+        <mark key="[" line="5" column="28" />
+      </file>
+      <file name="/fragment.java" timestamp="1521725388375">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/20180310/src/WeakRef/WeakRefQ.java" timestamp="1520659670902">
+        <mark key="[" line="60" column="27" />
+        <mark key="]" line="60" column="26" />
+        <mark key="^" line="60" column="26" />
+        <mark key="." line="60" column="26" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/spring2/src/soundsystem/CompactDisc.java" timestamp="1504928149621">
+        <mark key="[" line="5" column="28" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="32" column="50" filename="$USER_HOME$/IdeaProjects/spring2/src/soundsystem/BlankDisc.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/spring2/src/soundsystem/BlankDisc.java" />
+      <jump line="29" column="41" filename="$USER_HOME$/IdeaProjects/spring2/src/soundsystem/TrackCounter.java" />
+      <jump line="19" column="51" filename="$USER_HOME$/IdeaProjects/spring2/src/soundsystem/TrackCounter.java" />
+      <jump line="23" column="27" filename="$USER_HOME$/IdeaProjects/testSerialization/src/ForTestSerialization/Test1.java" />
+      <jump line="47" column="45" filename="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/Spittle.java" />
+      <jump line="15" column="46" filename="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/SpiileControllerTest.java" />
+      <jump line="34" column="25" filename="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/web/SpittleController.java" />
+      <jump line="18" column="46" filename="$USER_HOME$/IdeaProjects/20180310/src/oom/PermOOM.java" />
+      <jump line="0" column="13" filename="$USER_HOME$/IdeaProjects/20180328/src/Main.java" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text />
+      </register>
+      <register name="d" type="4">
+        <text />
+      </register>
+      <register name="-" type="4">
+        <text>public</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxwbGF5VHJhY2tcPg==</text>
+      </register>
+      <register name="0" type="4">
+        <text>s().keySet()){
+            System.out.println()</text>
+      </register>
+      <register name="1" type="4">
+        <text />
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBNYXA8U3Rpcm5nLEludGVnZXI+IG0gPSAK</text>
+      </register>
+      <register name="3" type="4">
+        <text />
+      </register>
+      <register name="4" type="4">
+        <text>p = generateBean(propertMap);
+            this
+        }</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNhdmUoU3BpdHRlciBzcGl0dGVyKTsK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIDx0aXRsZT5UaXRsZTwvdGl0bGU+Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIHRyaW5nIE1BWF9MT05HX0FTX1NUUklORyA9Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text>.city = &quot;Hangzhou&quot;;
+        this.a1.town = &quot;FuYang&quot;;
+        this.a1.number = 186;</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHByaXZhdGUgQmxhbmtEaXNjIGNkOwo=</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxwbGF5VHJhY2tcPg==</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxwbGF5VHJhY2tcPg==</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxwbGF5VHJhY2tcPg==</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+</application>
