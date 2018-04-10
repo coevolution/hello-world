@@ -15,6 +15,12 @@
       <file name="$USER_HOME$/IdeaProjects/20180328/20180330/src/usefultool/CommonUtil.java" timestamp="1522378478285">
         <mark key="[" line="8" column="23" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/20180411/src/sychronized/SychronizedThread.java" timestamp="1523396082593">
+        <mark key="[" line="7" column="4" />
+        <mark key="]" line="7" column="11" />
+        <mark key="^" line="7" column="3" />
+        <mark key="." line="7" column="4" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/20180310/src/looplocal/TestLoopLocal.java" timestamp="1521069901687">
         <mark key="[" line="19" column="3" />
         <mark key="]" line="19" column="27" />
@@ -184,7 +190,6 @@
         <mark key="^" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/com/sun/org/apache/bcel/internal/util/ClassLoader.java" timestamp="1522768080818" />
       <file name="$USER_HOME$/IdeaProjects/SpringMVC5.1.2/src/sprittr/config/WebConfig.java" timestamp="1518748870400">
         <mark key="[" line="13" column="2" />
       </file>
@@ -221,14 +226,14 @@
       <jump line="0" column="13" filename="$USER_HOME$/IdeaProjects/20180328/src/Main.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Q1JFQVRFIG9yIHJlcGxhY2UgUFJPQ0VEVVJFIFNQX1RSVU5DQVRFVEFCTEVTCg==</text>
+      <register name="&quot;" type="4">
+        <text>private</text>
       </register>
       <register name="d" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>create</text>
+        <text>private</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxwbGF5VHJhY2tcPg==</text>
