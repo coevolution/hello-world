@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.28" level="application_server_libraries" />
     <orderEntry type="module" module-name="20190107" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:23.0" level="project" />
   </component>
 </module>

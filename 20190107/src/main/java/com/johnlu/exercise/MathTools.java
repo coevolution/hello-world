@@ -31,6 +31,14 @@ public class MathTools {
         return arr;
     }
 
+    public static int[] sortedArray(int min, int max) {
+        int[] arr = new int[max - min + 1];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = min + i;
+        }
+        return arr;
+    }
+
     public static void main(String[] args) {
         int[] arr = MathTools.randomSort(100,120);
         for(int i:arr) {
