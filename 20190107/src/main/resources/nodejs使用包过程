@@ -1,0 +1,13 @@
+1.安装依赖包
+  bower install --save mustache
+  #区别npm和bower:npm粒度更大
+  确认依赖包安装成功:查看bower.json下dependencies中增加了"mustache": "^3.0.1"
+2.项目引入依赖包
+  require.config中增加js模块:paths下增加 mustache_template:'bower_components/mustache/mustache.min'
+  #如有依赖其他包需定义shim
+3.在js文件中声明依赖
+  require(['mustache_template'],function(mustache_template){
+    ...
+    mustache_template.render();
+    ...
+  };

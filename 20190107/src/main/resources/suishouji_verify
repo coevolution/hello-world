@@ -1,0 +1,12 @@
+一.加密传输给SSJ
+1.生成随机key
+2.使用公钥对key进行非对称加密得到RSAKey
+3.使用RSAKey对content进行对称加密得到encryptedContent
+4.使用签名私钥对content进行RSA加密得到签名sign
+5.组装encryptedContent、RSAKey、sign成http request.
+
+
+二.SSJ返回
+1.使用公钥验签
+2.使用私钥对传输的key进行非对称解密得到对称加密的key
+3.使用key对content进行对称解密
