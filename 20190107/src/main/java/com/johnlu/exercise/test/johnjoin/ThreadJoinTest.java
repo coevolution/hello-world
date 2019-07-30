@@ -18,6 +18,7 @@ public class ThreadJoinTest {
             thread.setName("myThread"+i);
             thread.start();
             //todo 有问题
+            if(i==0)
             thread.join();
 //            try {
 //                cu.join();

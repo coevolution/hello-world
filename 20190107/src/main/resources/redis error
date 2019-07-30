@@ -1,0 +1,32 @@
+2019-07-24 14:29:01.918 [DubboServerHandler-192.168.202.158:9191-thread-200] INFO  com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol -  [DUBBO] disconected from /192.168.7.50:53292,url:dubbo://192.168.202.158:9191/com.treefinance.payment.facade.demo.IDemoService?anyhost=true&application=tp-payment-trade&channel.readonly.sent=true&codec=dubbo&default.service.filter=bizException,tracing&default.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.treefinance.payment.facade.demo.IDemoService&methods=sayHello&owner=wuzhangneng,wanghaoting,luxiaopeng&pid=55164&retries=0&side=provider&timestamp=1563871782530, dubbo version: 2.5.3, current host: 192.168.202.158
+2019-07-24 14:29:01.918 [pool-4-thread-3] DEBUG com.treefinance.payment.trade.common.DefaultTradeHandle - 生成交易订单异常：{"tradeNo":null,"userId":2003100346,"loanOrderId":null,"premiumScheduleId":3412,"amount":null,"source":"CLEARING_BATCH","returnUrl":null}
+org.redisson.client.WriteRedisConnectionException: Unable to send command! Node source: NodeSource [slot=null, addr=null, redisClient=null, redirect=null, entry=MasterSlaveEntry [masterEntry=[freeSubscribeConnectionsAmount=1, freeSubscribeConnectionsCounter=50, freeConnectionsAmount=31, freeConnectionsCounter=63, freezed=false, freezeReason=null, client=[addr=redis://192.168.5.243:6379], nodeType=MASTER, firstFail=0]]], connection: [id: 0x23a68a08, L:/192.168.202.158:55424 ! R:192.168.5.243/192.168.5.243:6379], command: (EVAL), params: [local mode = redis.call('hget', KEYS[1], 'mode'); if (mode == false) then redis.call('hset', KEYS[1]..., 1, PAYMENT-TRADE-PREMIUM:3412, 300000, 7c04cc4b-2001-49d7-906c-d75512fd0143:225:write]
+	at org.redisson.command.CommandAsyncService.checkWriteFuture(CommandAsyncService.java:664)
+	at org.redisson.command.CommandAsyncService.access$100(CommandAsyncService.java:84)
+	at org.redisson.command.CommandAsyncService$9$1.operationComplete(CommandAsyncService.java:622)
+	at org.redisson.command.CommandAsyncService$9$1.operationComplete(CommandAsyncService.java:619)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:511)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:485)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:424)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:121)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:987)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(AbstractChannel.java:869)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.write(DefaultChannelPipeline.java:1391)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1081)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1128)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1070)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:464)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019-07-24 14:29:01.920 [DubboServerHandler-192.168.202.158:9191-thread-195] INFO  com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol -  [DUBBO] disconected from /192.168.5.134:60980,url:dubbo://192.168.202.158:9191/com.treefinance.payment.facade.demo.IDemoService?anyhost=true&application=tp-payment-trade&channel.readonly.sent=true&codec=dubbo&default.service.filter=bizException,tracing&default.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.treefinance.payment.facade.demo.IDemoService&methods=sayHello&owner=wuzhangneng,wanghaoting,luxiaopeng&pid=55164&retries=0&side=provider&timestamp=1563871782530, dubbo version: 2.5.3, current host: 192.168.202.158
+2019-07-24 14:29:01.920 [DubboServerHandler-192.168.202.158:9191-thread-191] INFO  com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol -  [DUBBO] disconected from /192.168.5.196:60464,url:dubbo://192.168.202.158:9191/com.treefinance.payment.facade.demo.IDemoService?anyhost=true&application=tp-payment-trade&channel.readonly.sent=true&codec=dubbo&default.service.filter=bizException,tracing&default.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.treefinance.payment.facade.demo.IDemoService&methods=sayHello&owner=wuzhangneng,wanghaoting,luxiaopeng&pid=55164&retries=0&side=provider&timestamp=1563871782530, dubbo version: 2.5.3, current host: 192.168.202.158
+2019-07-24 14:29:01.918 [DubboServerHandler-192.168.202.158:9191-thread-190] INFO  com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol -  [DUBBO] disconected from /192.168.5.132:38786,url:dubbo://192.168.202.158:9191/com.treefinance.payment.facade.demo.IDemoService?anyhost=true&application=tp-payment-trade&channel.readonly.sent=true&codec=dubbo&default.service.filter=bizException,tracing&default.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.treefinance.payment.facade.demo.IDemoService&methods=sayHello&owner=wuzhangneng,wanghaoting,luxiaopeng&pid=55164&retries=0&side=provider&timestamp=1563871782530, dubbo version: 2.5.3, current host: 192.168.202.158
