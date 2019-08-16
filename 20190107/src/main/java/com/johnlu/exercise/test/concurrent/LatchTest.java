@@ -43,7 +43,7 @@ public class LatchTest {
         };
 
         LatchTest latchTest = new LatchTest();
-        latchTest.startTaskAllInOnce(5, taskTemp);
+        latchTest.startTaskAllInOnce(1000, taskTemp);
     }
 
     public long startTaskAllInOnce(int threadNums, final Runnable task) throws InterruptedException {

@@ -21,7 +21,8 @@ public class MathTools {
         Random random = new Random();
         Set<Float> set = new HashSet<>();
         for (int i : arr) {
-            set.add(i + random.nextFloat());
+//            set.add(i + random.nextFloat());
+            set.add((float) i);
         }
         int j = 0;
         for (Float f : set) {

@@ -122,6 +122,5 @@ public class TryStampedLock {
         int after = stampedLock2.getReadLockCount();
         Assert.assertTrue(before != after);
 
-
     }
 }

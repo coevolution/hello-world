@@ -23,6 +23,7 @@ public class ConcurrentHashMapTest {
         @Override public void run() {
             String threadName = Thread.currentThread().getName();
             try {
+                System.out.println(threadName+" start to wait!!");
                 start.await();
                 System.out.println(threadName+" awake!!");
 
@@ -48,7 +49,7 @@ public class ConcurrentHashMapTest {
         thread1.start();
         thread2.start();
         long startTime = System.currentTimeMillis();
-        start.countDown();
+//        start.countDown();
         if(countDownLatch.await(10000, TimeUnit.MILLISECONDS)) {
             System.out.println("countDownLatch count to zero!");
         } else {

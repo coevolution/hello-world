@@ -14,6 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="20190107" target="8" />
+      <module name="hello-world" target="1.7" />
       <module name="redission-module" target="8" />
       <module name="spring-boot-actuator-test" target="8" />
     </bytecodeTargetLevel>
