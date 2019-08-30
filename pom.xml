@@ -11,6 +11,7 @@
 
     <modules>
         <module>redission-module</module>
+        <module>java-remote-control</module>
     </modules>
     
 </project>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="20190107" />
+        <module name="java-remote-control" />
         <module name="redission-module" />
         <module name="spring-boot-actuator-test" />
       </profile>
@@ -15,12 +16,15 @@
     <bytecodeTargetLevel target="8">
       <module name="20190107" target="8" />
       <module name="hello-world" target="1.7" />
+      <module name="java-remote-control" target="1.7" />
+      <module name="javaremotecontrol" target="1.7" />
       <module name="redission-module" target="8" />
       <module name="spring-boot-actuator-test" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-remote-control" options="-parameters" />
       <module name="spring-boot-actuator-test" options="-parameters" />
     </option>
   </component>

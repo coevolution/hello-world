@@ -27,6 +27,7 @@ import java.util.zip.GZIPOutputStream;
  */
 public class CommonUtilsTest {
     @Test public void test1() {
+        String str = new String("john");
         String s = StringUtils.abbreviate("hello man!", 4);
         System.out.println(s);
     }

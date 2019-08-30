@@ -2,6 +2,7 @@ package com.johnlu.exercise.lock;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.johnlu.exercise.StringThread;
+import com.johnlu.exercise.StringThreadCallable;
 
 import java.util.concurrent.*;
 
@@ -20,5 +21,6 @@ public class StringThreadMain {
         for(int i = 0;i< 3;i++) {
             threadPoolExecutor.execute(new StringThread(String.valueOf(1)));
         }
+        threadPoolExecutor.submit(new Thread());
     }
 }
