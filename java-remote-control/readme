@@ -1,0 +1,1 @@
+java -Dserver.port=9034 -Djava.awt.headless=false -jar target/demo-0.0.1-SNAPSHOT.jar
