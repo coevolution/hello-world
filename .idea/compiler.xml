@@ -16,10 +16,10 @@
     <bytecodeTargetLevel target="8">
       <module name="20190107" target="8" />
       <module name="hello-world" target="1.7" />
-      <module name="java-remote-control" target="1.7" />
+      <module name="java-remote-control" target="1.8" />
       <module name="javaremotecontrol" target="1.7" />
       <module name="redission-module" target="8" />
-      <module name="spring-boot-actuator-test" target="8" />
+      <module name="spring-boot-actuator-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

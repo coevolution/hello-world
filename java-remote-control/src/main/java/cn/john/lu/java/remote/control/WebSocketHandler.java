@@ -6,6 +6,7 @@ import org.springframework.web.socket.handler.AbstractWebSocketHandler;
 
 import java.awt.*;
 import java.awt.event.InputEvent;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
@@ -37,6 +38,11 @@ public class WebSocketHandler extends AbstractWebSocketHandler {
 
     @Override
     protected void handleTextMessage(WebSocketSession session, TextMessage message) {
+        try {
+            Runtime.getRuntime().exec("/applications/test.sh");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         final String[] xs = message.getPayload().split(",");
         if (xs.length > 0) {
             switch (xs[0]) {
