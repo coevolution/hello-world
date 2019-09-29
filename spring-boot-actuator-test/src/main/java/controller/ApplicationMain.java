@@ -1,7 +1,12 @@
 package controller;
 
+import hello.RedisHelper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.List;
 
 /**
  * @author lxp
@@ -12,5 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ApplicationMain {
     public static void main(String[] args) {
         SpringApplication.run(ApplicationMain.class, args);
+        RedisHelper redisHelper = new RedisHelper();
+        List<String> keys = redisHelper.keys("TP-PAYMENT-*");
     }
 }
