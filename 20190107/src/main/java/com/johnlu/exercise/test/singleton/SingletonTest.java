@@ -6,11 +6,14 @@ package com.johnlu.exercise.test.singleton;
  * @Version 1.0
  */
 public class SingletonTest {
-    private static final SingletonTest instance=new SingletonTest();
+    private static final SingletonTest instance = new SingletonTest();
+
     //私有的默认构造函数
-    private SingletonTest(){}
+    private SingletonTest() {
+    }
+
     //静态工厂方法
-    public static SingletonTest getInstance(){
+    public static SingletonTest getInstance() {
         return instance;
     }
 }

@@ -23,6 +23,7 @@ public class ArrayListRemoveTest {
         }
 
     }
+
     public static void remove(ArrayList<String> list, String elem) {
         // 五种不同的循环及删除方法
         // 方法一：普通for循环正序删除，删除过程中元素向左移动，不能删除重复的元素
@@ -44,12 +45,12 @@ public class ArrayListRemoveTest {
         //            }
         //        }
         // 方法四：迭代器，使用ArrayList的remove()方法删除，产生并发修改异常 ConcurrentModificationException
-                Iterator iterator = list.iterator();
-                while (iterator.hasNext()) {
-                    if(iterator.next().equals(elem)) {
-                        list.remove(iterator.next());
-                    }
-                }
+        Iterator iterator = list.iterator();
+        while (iterator.hasNext()) {
+            if (iterator.next().equals(elem)) {
+                list.remove(iterator.next());
+            }
+        }
 
         // 方法五：迭代器，使用迭代器的remove()方法删除，可以删除重复的元素，但不推荐
         //        Iterator iterator = list.iterator();

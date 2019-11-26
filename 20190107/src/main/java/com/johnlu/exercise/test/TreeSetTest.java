@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * @Version 1.0
  */
 public class TreeSetTest {
-    public static void main(String[] s){
+    public static void main(String[] s) {
         Set<Object> set = new TreeSet<>();
         set.add(null);
     }

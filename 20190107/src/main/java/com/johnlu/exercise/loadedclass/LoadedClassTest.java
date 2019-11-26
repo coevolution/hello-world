@@ -16,8 +16,8 @@ public class LoadedClassTest {
         Class<?>[] list = clazz.getClasses();
         ThreadLocal<Integer> tl = new ThreadLocal<Integer>();
         tl.set(10);
-        if(list.length > 0) {
-            for(Class c : list) {
+        if (list.length > 0) {
+            for (Class c : list) {
                 System.out.println(c.getName());
             }
         } else {

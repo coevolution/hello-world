@@ -12,10 +12,12 @@ public class FinalTest {
         boy.setName("James");
         return boy;
     }
+
     private static final Boy setNull() {
 
         return null;
     }
+
     public static void main(String[] args) {
         Boy boy = new Boy();
         boy.setName("John");

@@ -9,10 +9,9 @@ import org.junit.Test;
  * @Version 1.0
  */
 public class TestMyAnnotation {
-    @MyAnnotation
-    String userName;
-    @Test
-    public void testMyAnnotation1() {
+    @MyAnnotation String userName;
+
+    @Test public void testMyAnnotation1() {
         userName = "得到的";
     }
 }

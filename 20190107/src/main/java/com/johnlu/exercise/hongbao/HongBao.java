@@ -41,7 +41,6 @@ public class HongBao {
     }
 
     @Override public String toString() {
-        return "红包{" + "个数=" + count + ", 总金额=" + amount + ", 当前已抢="
-            + currentCount + '}';
+        return "红包{" + "个数=" + count + ", 总金额=" + amount + ", 当前已抢=" + currentCount + '}';
     }
 }

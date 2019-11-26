@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Version 1.0
  */
 public class HashMapDeadLoopTest {
-    static HashMap<Integer,Integer> map = new HashMap<>(2);
+    static HashMap<Integer, Integer> map = new HashMap<>(2);
     static AtomicInteger at = new AtomicInteger();
 
     public static void main(String[] args) throws InterruptedException {
@@ -27,22 +27,21 @@ public class HashMapDeadLoopTest {
         test3.start();
 
         test4.start();
-//        test0.join();
-//        test1.join();
-//        test2.join();
-//        test3.join();
-//        test4.join();
-        System.out.println(Thread.currentThread().getName()+" end.size=" +map.size());
+        //        test0.join();
+        //        test1.join();
+        //        test2.join();
+        //        test3.join();
+        //        test4.join();
+        System.out.println(Thread.currentThread().getName() + " end.size=" + map.size());
     }
 
     static class Test extends Thread {
-        @Override
-        public void run() {
-           while(at.get() < 10000) {
-               map.put(at.get(),at.get());
-               at.incrementAndGet();
-           }
-           System.out.println(Thread.currentThread().getName()+" end");
+        @Override public void run() {
+            while (at.get() < 10000) {
+                map.put(at.get(), at.get());
+                at.incrementAndGet();
+            }
+            System.out.println(Thread.currentThread().getName() + " end");
         }
     }
 

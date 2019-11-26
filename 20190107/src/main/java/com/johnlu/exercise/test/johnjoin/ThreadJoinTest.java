@@ -11,37 +11,40 @@ import java.util.Vector;
  */
 public class ThreadJoinTest {
     private static List<String> l = new ArrayList<>();
+
     public static void main(String[] args) throws InterruptedException {
         Thread cu = Thread.currentThread();
-        for(int i=0;i<50;i++) {
+        for (int i = 0; i < 50; i++) {
             Thread thread = new Thread(new DoRun(l));
-            thread.setName("myThread"+i);
+            thread.setName("myThread" + i);
             thread.start();
             //todo 有问题
-            if(i==0)
-            thread.join();
-//            try {
-//                cu.join();
-//            } catch (InterruptedException e) {
-//                System.out.println(e.getMessage());
-//                e.printStackTrace();
-//            }
+            if (i == 0)
+                thread.join();
+            //            try {
+            //                cu.join();
+            //            } catch (InterruptedException e) {
+            //                System.out.println(e.getMessage());
+            //                e.printStackTrace();
+            //            }
         }
 
         System.out.println(l.size());
     }
 
-    public static class DoRun implements Runnable{
+    public static class DoRun implements Runnable {
         List<String> list;
+
         public DoRun(List<String> list) {
             this.list = list;
         }
+
         @Override public void run() {
-            System.out.println("start "+Thread.currentThread().getName());
-            for(int i=0;i<100;i++) {
-                list.add(Thread.currentThread().getName()+i);
+            System.out.println("start " + Thread.currentThread().getName());
+            for (int i = 0; i < 100; i++) {
+                list.add(Thread.currentThread().getName() + i);
             }
-            System.out.println("end "+Thread.currentThread().getName());
+            System.out.println("end " + Thread.currentThread().getName());
         }
     }
 }

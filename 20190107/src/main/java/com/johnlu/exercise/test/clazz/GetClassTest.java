@@ -17,12 +17,13 @@ public class GetClassTest extends Singleton1 {
 
     private void test() {
         int count = 0;
-        ok: for(int i=0;i<10;i++) {
+        ok:
+        for (int i = 0; i < 10; i++) {
+            count++;
+            for (int j = 0; j < 5; j++) {
                 count++;
-            for(int j=0;j<5;j++) {
-                count++;
-                if(j >= 3) {
-//                    break ok;
+                if (j >= 3) {
+                    //                    break ok;
                 }
             }
         }

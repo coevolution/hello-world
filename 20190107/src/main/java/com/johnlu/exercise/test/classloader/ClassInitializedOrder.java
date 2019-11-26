@@ -5,6 +5,8 @@ package com.johnlu.exercise.test.classloader;
  * @date 2019/7/22 下午1:51
  * @Version 1.0
  */
+
+
 /**
  * ClassInitializedOrder for : Java Classload Order Test
  *
@@ -14,6 +16,7 @@ package com.johnlu.exercise.test.classloader;
 // CASE 1
 class ClassInitializedOrder {
     private static boolean initialized = false;
+
     static {
         println("static 代码块执行。");
         Thread thread = new Thread(() -> initialized = true);
@@ -30,7 +33,7 @@ class ClassInitializedOrder {
         System.out.println("initialized = " + initialized);
     }
 
-    private static void println(Object o){
+    private static void println(Object o) {
         System.out.println(o);
     }
 }

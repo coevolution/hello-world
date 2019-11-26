@@ -23,14 +23,10 @@ public class MergeSortTest {
     /**
      * 将两个数组进行归并，归并前面2个数组已有序，归并后依然有序
      *
-     * @param array
-     *            数组对象
-     * @param left
-     *            左数组的第一个元素的索引
-     * @param center
-     *            左数组的最后一个元素的索引，center+1是右数组第一个元素的索引
-     * @param right
-     *            右数组最后一个元素的索引
+     * @param array  数组对象
+     * @param left   左数组的第一个元素的索引
+     * @param center 左数组的最后一个元素的索引，center+1是右数组第一个元素的索引
+     * @param right  右数组最后一个元素的索引
      */
     public void merge(int[] array, int left, int center, int right) {
         // 临时数组
@@ -64,7 +60,7 @@ public class MergeSortTest {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[] { 5, 69, 12, 3, 56, 789, 2, 5648, 23 };
+        int[] array = new int[] {5, 69, 12, 3, 56, 789, 2, 5648, 23};
         MergeSortTest mergeSortTest = new MergeSortTest();
         mergeSortTest.sort(array, 0, array.length - 1);
         System.out.println("排序后的数组：");

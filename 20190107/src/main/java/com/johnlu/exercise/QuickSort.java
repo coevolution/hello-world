@@ -26,8 +26,8 @@ public class QuickSort {
                 h--;
             }
         }
-//        print(arr);
-        System.out.println("l=" + (l + 1) + "h=" + (h + 1) + "povit="+povit);
+        //        print(arr);
+        System.out.println("l=" + (l + 1) + "h=" + (h + 1) + "povit=" + povit);
         if (l > low)
             sort(arr, low, l - 1);
         if (h < high)
@@ -35,15 +35,15 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = MathTools.randomSort(20,30);
-        for(int i:arr) {
-            System.out.print(i+" ");
+        int[] arr = MathTools.randomSort(20, 30);
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
         System.out.println();
         System.out.println("===========================");
-        sort(arr,0,10);
-        for(int i:arr) {
-            System.out.print(i+" ");
+        sort(arr, 0, 10);
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
     }
 }

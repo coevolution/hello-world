@@ -35,15 +35,15 @@ public class repeat {
     }
 
     public static void main(String[] args) {
-        int[] arr = MathTools.randomSort(15,30);
-        for(int i:arr) {
-            System.out.print(i+" ");
+        int[] arr = MathTools.randomSort(15, 30);
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
         System.out.println();
         System.out.println("===========================");
-        sort(arr,0,arr.length-1);
-        for(int i:arr) {
-            System.out.print(i+" ");
+        sort(arr, 0, arr.length - 1);
+        for (int i : arr) {
+            System.out.print(i + " ");
         }
     }
 }

@@ -11,6 +11,6 @@ public class Producer {
     public int produce(List<Shoe> shoes) {
         Shoe shoe = new Shoe();
         boolean b = shoes.add(shoe);
-        return b? 1:0;
+        return b ? 1 : 0;
     }
 }

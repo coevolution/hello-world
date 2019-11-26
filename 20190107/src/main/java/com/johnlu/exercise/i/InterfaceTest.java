@@ -6,7 +6,7 @@ package com.johnlu.exercise.i;
  * @Version 1.0
  */
 public interface InterfaceTest {
-    static void hello(){
+    static void hello() {
         System.out.println("hello");
     }
 }

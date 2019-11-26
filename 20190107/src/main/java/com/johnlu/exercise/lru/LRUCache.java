@@ -22,8 +22,7 @@ class LRUCache<K, V> extends LinkedHashMap<K, V> {
         CACHE_SIZE = cacheSize;
     }
 
-    @Override
-    protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
+    @Override protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
         // 当 map中的数据量大于指定的缓存个数的时候，就自动删除最老的数据。
         return size() > CACHE_SIZE;
     }

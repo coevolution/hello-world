@@ -8,14 +8,14 @@ package com.johnlu.exercise.test.johnfinal;
 public class FinallyTest {
     public static void main(String[] args) {
         try {
-        String str = null;
-        int i = 0;
-        if(i == 0) {
-            return;
-        }
+            String str = null;
+            int i = 0;
+            if (i == 0) {
+                return;
+            }
 
             System.out.println("try executed");
-        }finally {
+        } finally {
             System.out.println("finally executed");
         }
     }

@@ -19,8 +19,7 @@ public class ArrayTest {
         list.add(new Man());
         list.add(55555);
 
-        for (Object person : list)
-        {
+        for (Object person : list) {
             System.out.println(person);
         }
 

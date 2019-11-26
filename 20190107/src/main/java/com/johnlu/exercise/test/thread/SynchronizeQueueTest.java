@@ -10,9 +10,10 @@ import java.util.concurrent.TimeUnit;
  */
 public class SynchronizeQueueTest {
     static SynchronousQueue synchronousQueue = new SynchronousQueue(true);
+
     public static void main(String[] args) throws InterruptedException {
         new Thread(new Runnable() {
-            @Override public void run(){
+            @Override public void run() {
                 Object o = null;
                 try {
                     o = synchronousQueue.take();

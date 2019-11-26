@@ -11,28 +11,28 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ReentrantLockTest {
     boolean flag = false;
+
     public static void main(String[] args) {
         ReentrantLock lock = new ReentrantLock();
-        if(lock.tryLock()) {
+        if (lock.tryLock()) {
 
         }
     }
 
-    @Test
-    public void test1() {
+    @Test public void test1() {
         Thread thread = new Thread(new Runnable() {
-//            boolean t;
+            //            boolean t;
             @Override public void run() {
-            try {
-                Thread.sleep(5000);
-                flag = true;
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+                try {
+                    Thread.sleep(5000);
+                    flag = true;
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         });
         thread.start();
-        while(!flag) {
+        while (!flag) {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {

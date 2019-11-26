@@ -24,15 +24,15 @@ public class LatchTest {
             // 注意，此处是非线程安全的，留坑
             private int iCounter;
 
-            @Override
-            public void run() {
-                for(int i = 0; i < 10; i++) {
+            @Override public void run() {
+                for (int i = 0; i < 10; i++) {
                     // 发起请求
                     //                    HttpClientOp.doGet("https://www.baidu.com/");
 
-                        iCounter++;
+                    iCounter++;
 
-                    System.out.println(System.nanoTime() + " [" + Thread.currentThread().getName() + "] iCounter = " + iCounter);
+                    System.out.println(System.nanoTime() + " [" + Thread.currentThread().getName()
+                        + "] iCounter = " + iCounter);
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
@@ -46,10 +46,11 @@ public class LatchTest {
         latchTest.startTaskAllInOnce(1000, taskTemp);
     }
 
-    public long startTaskAllInOnce(int threadNums, final Runnable task) throws InterruptedException {
+    public long startTaskAllInOnce(int threadNums, final Runnable task)
+        throws InterruptedException {
         final CountDownLatch startGate = new CountDownLatch(1);
         final CountDownLatch endGate = new CountDownLatch(threadNums);
-        for(int i = 0; i < threadNums; i++) {
+        for (int i = 0; i < threadNums; i++) {
             Thread t = new Thread() {
                 @Override public void run() {
                     try {
@@ -69,7 +70,8 @@ public class LatchTest {
             t.start();
         }
         long startTime = System.nanoTime();
-        System.out.println(startTime + " [" + Thread.currentThread() + "] All thread is ready, concurrent going...");
+        System.out.println(startTime + " [" + Thread.currentThread()
+            + "] All thread is ready, concurrent going...");
         // 因开启门只需一个开关，所以立马就开启开始门
         startGate.countDown();
         // 等等结束门开启

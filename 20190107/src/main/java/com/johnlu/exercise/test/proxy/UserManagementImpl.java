@@ -7,11 +7,12 @@ package com.johnlu.exercise.test.proxy;
  */
 public class UserManagementImpl implements IUserManagement {
     @Override public int addUser(String name) {
-        System.out.println(String.format("add user %s",name));
+        System.out.println(String.format("add user %s", name));
         return 2;
     }
+
     public int delUser(String name) {
-        System.out.println(String.format("delete user %s",name));
+        System.out.println(String.format("delete user %s", name));
         return 1;
     }
 }

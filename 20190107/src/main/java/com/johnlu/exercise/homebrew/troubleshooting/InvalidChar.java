@@ -8,7 +8,7 @@ package com.johnlu.exercise.homebrew.troubleshooting;
 public class InvalidChar {
     public static void main(String[] args) {
 
-        byte[] bs = new byte[] {0x1c,0x1d,0x1e,0x1f};
+        byte[] bs = new byte[] {0x1c, 0x1d, 0x1e, 0x1f};
         String s = new String(bs);
 
         char c = 0x03;

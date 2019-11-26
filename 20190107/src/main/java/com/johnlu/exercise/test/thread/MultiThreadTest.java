@@ -7,8 +7,9 @@ package com.johnlu.exercise.test.thread;
  */
 public class MultiThreadTest {
     int count;
+
     private void add() {
-        for(int i=0;i<100;i++) {
+        for (int i = 0; i < 100; i++) {
             count++;
             System.out.println(count);
             try {
@@ -18,6 +19,7 @@ public class MultiThreadTest {
             }
         }
     }
+
     public static void main(String[] as) throws InterruptedException {
         MultiThreadTest target = new MultiThreadTest();
         Thread t1 = new Thread(new Runnable() {

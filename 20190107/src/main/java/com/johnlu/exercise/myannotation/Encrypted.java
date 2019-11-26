@@ -11,9 +11,7 @@ import javax.crypto.*;
 /**
  * 需要加解密的字段
  */
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.FIELD)
+@Documented @Retention(RetentionPolicy.RUNTIME) @Target(ElementType.FIELD)
 public @interface Encrypted {
     /**
      * 默认的加解密算法

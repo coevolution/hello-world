@@ -8,8 +8,7 @@ package com.johnlu.exercise.test.memory;
 public class Girl {
     private String name;
     private Integer age;
-    private Boy boyFriend
-        = new Boy();
+    private Boy boyFriend = new Boy();
 
     public String getName() {
         return name;

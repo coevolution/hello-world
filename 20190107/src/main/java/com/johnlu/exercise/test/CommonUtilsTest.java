@@ -77,15 +77,15 @@ public class CommonUtilsTest {
         FileReader fileReader = new FileReader("/dashu/reconciliation/20190611/1.csv");
 
         CSVParser parser = csvFormat1.parse(fileReader);
-        try{
-            for(CSVRecord record : parser){
+        try {
+            for (CSVRecord record : parser) {
                 int fieldNum = record.size();
-                for(int i=0; i<fieldNum; i++){
-                    System.out.print(record.get(i)+" ");
+                for (int i = 0; i < fieldNum; i++) {
+                    System.out.print(record.get(i) + " ");
                 }
                 System.out.println();
             }
-        }finally{
+        } finally {
             fileReader.close();
         }
     }
@@ -149,22 +149,22 @@ public class CommonUtilsTest {
             }
         }
     }
-    @Test
-    public void testJsoup1() throws IOException {
+
+    @Test public void testJsoup1() throws IOException {
         String url = "http://tcms.treefinance.com.cn/myAttendance";
         Document doc = Jsoup.connect(url).get();
         System.out.println(doc.data());
     }
-    @Test
-    public void testGzip() throws IOException {
+
+    @Test public void testGzip() throws IOException {
         String fileName = "/dashu/reconciliation/20190611/1.csv";
         InputStream in = null;
         String gzipFileName = fileName + ".gz";
         OutputStream out = null;
         try {
             in = new BufferedInputStream(new FileInputStream(fileName));
-            out = new GZIPOutputStream(new BufferedOutputStream(
-                new FileOutputStream(gzipFileName)));
+            out =
+                new GZIPOutputStream(new BufferedOutputStream(new FileOutputStream(gzipFileName)));
             copy(in, out);
         } finally {
             if (out != null) {
@@ -176,18 +176,14 @@ public class CommonUtilsTest {
         }
     }
 
-    @Test
-    public void testUngzip()
-        throws IOException {
+    @Test public void testUngzip() throws IOException {
         String gzipFileName = "/dashu/reconciliation/20190611/1.csv.gz";
         String unzipFileName = "/dashu/reconciliation/20190611/2.csv";
         InputStream in = null;
         OutputStream out = null;
         try {
-            in = new GZIPInputStream(new BufferedInputStream(
-                new FileInputStream(gzipFileName)));
-            out = new BufferedOutputStream(new FileOutputStream(
-                unzipFileName));
+            in = new GZIPInputStream(new BufferedInputStream(new FileInputStream(gzipFileName)));
+            out = new BufferedOutputStream(new FileOutputStream(unzipFileName));
             copy(in, out);
         } finally {
             if (out != null) {
@@ -200,32 +196,32 @@ public class CommonUtilsTest {
     }
 
     //拷贝输入流的内容到输出流
-    public static void copy(InputStream input,
-        OutputStream output) throws IOException{
+    public static void copy(InputStream input, OutputStream output) throws IOException {
         byte[] buf = new byte[4096];
         int bytesRead = 0;
-        while((bytesRead = input.read(buf))!=-1){
+        while ((bytesRead = input.read(buf)) != -1) {
             output.write(buf, 0, bytesRead);
         }
     }
+
     //将文件读入字节数组
-    public static byte[] readFileToByteArray(String fileName) throws IOException{
+    public static byte[] readFileToByteArray(String fileName) throws IOException {
         InputStream input = new FileInputStream(fileName);
         ByteArrayOutputStream output = new ByteArrayOutputStream();
-        try{
+        try {
             copy(input, output);
             return output.toByteArray();
-        }finally{
+        } finally {
             input.close();
         }
     }
+
     //将字节数组写到文件
-    public static void writeByteArrayToFile(String fileName,
-        byte[] data) throws IOException{
+    public static void writeByteArrayToFile(String fileName, byte[] data) throws IOException {
         OutputStream output = new FileOutputStream(fileName);
-        try{
+        try {
             output.write(data);
-        }finally{
+        } finally {
             output.close();
         }
     }
